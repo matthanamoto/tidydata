@@ -83,5 +83,5 @@ Tidy.Data = join(activity.labels, Tidy.Data, by="Activity")
 Tidy.Data = Tidy.Data[order(Tidy.Data$Subject, Tidy.Data$Activity),]
 # Used order function to make the output cleaner and easier to comprehend.
 
-write.table(Tidy.Data, file = "C:/Users/Matt/Desktop/TidyData.txt", row.name=FALSE)
-# Wrote "Tidy data" to text file on desktop
+write.table(Tidy.Data, file = "TidyData.txt", row.name=FALSE)
+# Writes "Tidy data" to text file in working directory
