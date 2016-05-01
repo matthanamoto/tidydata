@@ -1,0 +1,16 @@
+Variables of Interest:
+
+Note: There were two sets of datasets that needed to be combined for analysis purposes. One set was a Training dataset and the other set was a test dataset. 
+Both the training and test dataset, were split into three datasets: activities, features, and subjects.
+
+Also, there were two label datasets that contained names of the activities tracked in the data and names of each feature tracked in the data.
+Those variables were labeled as "activity.labels" and "feature.names".
+
+activity.data: Combined data frame of activity Test and Train datasets
+features.data: Combined data frame of features Test and Train datasets
+subject.data:  Combined data frame of subject Test and Train datasets
+
+All.Data: Combined dataset of activity, features, and subject combined datasets.
+Extracted.data: Extracted the measurements on the mean and standard deviation for each measurement.
+ExtractAndActivity: Matched each activity listed in the "activity.labels" dataframe to the individual measurements.
+Tidy.Data: The average of each variable for each activity and each subject.
